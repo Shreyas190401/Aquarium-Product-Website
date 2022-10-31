@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  header{
+    padding-right: 180px;
+    padding-left: 180px;
+    display: flex; justify-content: space-between; align-items: center;    
+  }
+  header nav{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  header nav ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+  }
+  header nav ul li{
+    font-size: 22px;
+    padding: 0px;
+  }
+  header nav ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(35, 160, 177);
+  }
+  .active , header nav a:hover {
+    background-color:rgb(35, 160, 177);
+    color: white;
+  }
+  
+
+  .photob {
+    background-image:url(background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border : 0px solid black;
+    font-size: 50px;
+    height: 500px;
+    width: 100%;
+}
+.con {
+    padding-right: 180px;
+    padding-left: 180px;
+    border : 0px solid rgb(255, 255, 255);
+    background-color: black;
+    height: auto;
+    display: flex;
+}
+.main {
+    display:inline-block;
+    width: 33%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+.main img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.main:hover img{
+    transform: scale(1.1);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(35, 160, 177);
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .text a:hover{
+    color: white;
+    font-size: 55px;
+  }
+  .text a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+  }
+  .row {
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border : 0px solid rgb(0, 0, 0);
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  footer {
+    align-items: center;
+    background-color: black;
+    border : 1px solid black;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+.list{
+  border : 0px solid black;
+  padding-right: 180px;
+  padding-left: 180px;
+  padding-top: 20px;
+  font-size: 20px;
+  background-color: #f4f4f4;
+  color: rgb(0, 0, 0)
+}
+footer a{
+  color: #F0F0F0;
+  text-decoration: none;
+}
+.page a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  background-color:rgb(221, 222, 240);
+}
+.page a:hover {
+  background-color:rgb(184, 184, 207);
+  color: white;
+}
+.product img:hover{
+  transform: scale(1.01);
+}
+.product table, td, th {
+  border: 0px solid black;
+}
+.product table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.product table td{
+  padding: 15px;
+  width: 20%;
+  font-size: 20px;
+}
+.pimg tr{
+  height: 15px;
+}
+.pimg tr th{
+  height: 90px;
+}
+.product table td[rowspan]{
+  vertical-align: top;
+  text-align: left;
+}
+.product a{
+  text-decoration: none;
+  color: black;
+}
+.pimg a{
+  text-decoration: none;
+  color: black;
+}
+.pimg a:hover{
+  font-size: 20.1px;
+}
+.subnav ul li{
+  display: block;
+  margin-left: -40px;
+  padding: 10px;
+  background-color: white;
+}
+.subnav{
+  display: none;
+}
+nav ul li:hover .subnav{
+  display: block;
+  position: absolute;
+}
+nav ul li:hover .subnav ul{
+  display: block;
+}
+.prdetail td{
+  vertical-align: top;
+  text-align: left;
+  width: 10%;
+}
+.pimg{
+  font-size: 20px;
+}
+.pimg p b:hover{
+  font-size: 20.1px;
+}
+.abtus{
+  padding-right: 180px;
+  padding-left: 180px;
+  background-color: #f4f4f4;
+}
+.prdetailimg{
+  padding-right: 180px;
+  padding-left: 180px;
+}
+.del{
+  font-size: 10px;
+}
+.logo td{
+  width: 100%;
+}
+
+
+
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin-left: -90vh;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    flex-direction: column;
+  
+  }
+  
+  .box {
+    width: 350px;
+    height: 430px;
+    font-size: 16px;
+    padding: 40px 40px;
+    background: rgba(0, 0,0, 0.6);
+    border-radius: 48px;
+  }
+  
+  .user{
+    margin-top: 50px;
+  
+  }
+  
+  
+  .fas{
+    position: absolute;
+  
+  }
+  
+  input{
+    
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px 30px 10px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition: .3s all
+  
+    
+  }
+  
+  input:focus{
+    border-bottom: 1px solid #ff7f51;
+  }
+  
+  .reset-password{
+    color: #ffffff;
+    text-align: right;
+    margin-top: 0px;
+    font-size: 20px;
+    cursor: pointer;
+  
+  }
+  
+  .reset-password:hover{
+    text-decoration: underline;
+    color: rgb(35, 160, 177);
+  }
+  .login-btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .btn{
+    display: block;
+    width: 70%;
+    padding: 10px 10px 10px;
+    background-color:rgb(26, 230, 219);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    transition: .2s all;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover{
+    background-color: rgb(121, 247, 247); 
+  }
+  
+  .signup{
+    font-size: 25px;
+    color: white;
+    margin-top: 60px;
+  }
+  
+  .signup span{
+    color: rgb(35, 160, 177);
+    cursor: pointer;
+    transition: .3s color;
+  
+  }
+  
+  .signup span:hover{
+    color: rgb(50, 222, 241);
+  
+  }
+  
+  .bgimg{
+    background-image: url(background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border : 0px solid black;
+  }

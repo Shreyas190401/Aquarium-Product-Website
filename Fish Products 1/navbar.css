@@ -1,0 +1,49 @@
+header{
+    padding-right: 180px;
+    padding-left: 180px;
+}
+header nav{
+    font-size: 22px;
+}
+header nav ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+header nav ul li{
+    font-size: 22px;
+    padding: 0px;
+}
+header nav ul li a{
+    text-align: left;
+    text-decoration: none;
+}
+.active , header nav a:hover {
+    background-color:rgb(52, 54, 172);
+    color: white;
+  }
+
+
+
+
+
+  header{
+    border: 0px solid black;
+    padding-left: 180px;
+    text-decoration: none;
+    padding-right: 0px;
+}
+header a:hover{
+  background-color:rgb(52, 54, 172);
+}
+nav a:hover {
+    background-color:rgb(52, 54, 172);
+    color: white;
+  }
+nav{
+    font-size: 22px;
+    border: 0px solid black;
+    width :auto;
+    height: 40px;
+}
